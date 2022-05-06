@@ -54,13 +54,13 @@ li a {
   gap: 10px;
 }
 
-.first .hero {
+.hero {
   font-size: 48px;
   font-weight: 900;
   color: #f9faf8;
 }
 
-.first .hero-second {
+.hero-second {
   font-size: 18px;
   color: #e5e7eb;
 }
@@ -141,4 +141,41 @@ main h2 {
   font-size: 18px;
   align-self: flex-end;
   font-weight: bolder;
+}
+
+/* sign up*/
+
+.sign-up {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5em 13em;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #3882f6;
+  padding: 3em;
+  border-radius: 10px;
+  width: 100%;
+  gap: 20em;
+}
+
+.container button {
+  border: solid 1px white;
+}
+
+strong {
+  font-size: 24px;
+  color: #fff;
+}
+
+/* footer */
+footer {
+  text-align: center;
+  background-color: #1f2937;
+  color: #fff;
+  padding: 2em 0;
 }
